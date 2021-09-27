@@ -1,5 +1,6 @@
 :root {
     --background-mage-block-1: url("./Images/background.jpg");
+    --yellow-color: rgb(235, 197, 42);
 }
 
 html {
@@ -126,7 +127,7 @@ body {
     line-height: 1em;
     font-size: 120px;
     margin: 0px;
-    color: rgb(235, 197, 42);
+    color: var(--yellow-color);
 }
 
 #block_2 .item_bottom {
@@ -158,7 +159,7 @@ body {
 }
 
 #block_2 .item_bottom .text h3 {
-    color: rgb(235, 197, 42);
+    color: var(--yellow-color);
     font: normal normal bold 79px/70px sacramento, cursive;
     margin-bottom: 18%;
 }
@@ -182,7 +183,7 @@ body {
 #block_2 .item_bottom .icon .icon_element_1 button {
     width: 140px;
     height: 46px;
-    background-color: rgb(240, 210, 62);
+    background-color: var(--yellow-color);
     border: 1px solid rgb(66, 66, 66);
     font-size: 17px;
     color: #000000a8;
@@ -193,7 +194,7 @@ body {
 }
 
 #block_2 .item_bottom .icon .icon_element_1 button:hover {
-    background-color: rgb(175, 156, 61);
+    background-color: var(--yellow-color);
 }
 
 #block_2 .item_bottom .icon .icon_element_2 {
@@ -244,7 +245,7 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    background-color: rgb(235, 197, 42);
+    background-color: var(--yellow-color);
 }
 
 #block_4 .item_top {
@@ -593,7 +594,7 @@ body {
 #block_7 .container .bottom button {
     width: 140px;
     height: 46px;
-    background-color: rgb(235, 197, 42);
+    background-color: var(--yellow-color);
     border: 1px solid rgb(66, 66, 66);
     font-size: 17px;
     color: #000000a8;
@@ -645,7 +646,7 @@ body {
 }
 
 #menu .container .nav a:hover {
-    color: rgb(235, 197, 42);
+    color: var(--yellow-color);
     transition-duration: 0.5s;
 }
 
@@ -659,7 +660,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(235, 197, 42);
+    background-color: var(--yellow-color);
 }
 
 #menu .end .container {
@@ -675,6 +676,6 @@ body {
 }
 
 #menu .active {
-    color: rgb(235, 197, 42)!important;
+    color: var(--yellow-color)!important;
     transition-duration: 0.2s;
 }
