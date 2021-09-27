@@ -71,27 +71,27 @@ let handleEventClickSlideButton = function() {
 
 //scroll
 let ScrollHighlightMenu = function() {
-    const block_list = document.getElementsByClassName("common");
+    const blockList = document.getElementsByClassName("common");
     const menu = this.document.getElementsByClassName("menu1");
-    for (let i = 0; i < block_list.length; i++) {
+    for (let i = 0; i < blockList.length; i++) {
         if (i === 0) {
-            if ((this.scrollY + 10) < block_list[i + 1].offsetTop) {
+            if ((this.scrollY + 10) < blockList[i + 1].offsetTop) {
                 defaultMenu();
                 menu[i].className += " active";
                 break;
             }
         }
-        if (i === block_list.length - 1) {
-            if ((this.scrollY + 10) >= (block_list[i].offsetTop)) {
+        if (i === blockList.length - 1) {
+            if ((this.scrollY) >= (blockList[i].offsetTop - blockList[i - 1].offsetHeight / 2)) {
                 defaultMenu();
                 menu[i].className += " active";
                 break;
             }
         }
-        if ((this.scrollY + 10) >= block_list[i].offsetTop && (this.scrollY + 10) < block_list[i + 1].offsetTop) {
+        if ((this.scrollY + 10) >= blockList[i].offsetTop && (this.scrollY + 10) < blockList[i + 1].offsetTop) {
             defaultMenu();
             menu[i].className += " active";
-            break;
+            continue;
         }
     }
 }
