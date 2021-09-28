@@ -1,5 +1,5 @@
 :root {
-    --background-mage-block-1: url("./Images/Home/background.jpg");
+    --background-mage-block-1: url("./images/home/background.jpg");
     --yellow-color: rgb(235, 197, 42);
 }
 
@@ -116,7 +116,7 @@ html {
 /*#location */
 
 #location {
-    background-image: url(./Images/Home/ca2a5a_0c2dfc988bd343c59c242d776c8793a7.jpg);
+    background-image: url(./images/home/ca2a5a_0c2dfc988bd343c59c242d776c8793a7.jpg);
     background-color: #35357b;
     display: flex;
     justify-content: center;
@@ -523,7 +523,7 @@ html {
 /* confirm */
 
 #confirm {
-    background-image: url(./Images/Home/ca2a5a_6d4767a631134860a58236af7bf9b288.jpg);
+    background-image: url(./images/home/ca2a5a_6d4767a631134860a58236af7bf9b288.jpg);
     background-color: rgb(35, 64, 112);
 }
 
